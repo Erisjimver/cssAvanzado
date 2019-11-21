@@ -1,0 +1,12 @@
+    /*estilos al texto h1*/
+    h1{
+        text-align: center;
+        color: #00F;
+    }
+
+    /*estilos a lso parrafos*/
+    p{
+        font-family: Tahoma, Geneva,sans-serif;
+        color: #F00;
+        font-size: 18px;
+    }
