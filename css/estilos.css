@@ -10,3 +10,7 @@
         color: #F05;
         font-size: 18px;
     }
+    /*aplicando color al fondo del body*/
+    body{
+        background-color: #F05;
+    }
