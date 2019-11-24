@@ -14,3 +14,16 @@
     body{
         background-color: #F05;
     }
+
+    /*estilos de clase */
+    .miestilo{
+        color: fuchsia;
+        font-size: 26px;
+    }
+
+    /*estilos de id en una tabla*/
+    #tabla{
+        background-color: aqua;
+        border-color: forestgreen;
+    }
+
