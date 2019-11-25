@@ -12,7 +12,7 @@
     }
     /*aplicando color al fondo del body*/
     body{
-        background-color: #F05;
+        background-color: #F80;
     }
 
     /*estilos de clase */
@@ -23,7 +23,10 @@
 
     /*estilos de id en una tabla*/
     #tabla{
-        background-color: aqua;
-        border-color: forestgreen;
+        background-color:#00F;
+        border-color: #F00;
     }
+
+    /*selectores descendientes*/
+
 

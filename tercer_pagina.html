@@ -5,11 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/estilos.css">
+    <style>
+    a{
+        color: chartreuse;
+    }
+
+    /*estilo de clase*/
+    /*.mivinculo{ color: cyan; }*/
+
+    /*estilos descendente*/
+    li a{ color: cyan; }
+    li a strong{ color: darkgreen; }
+    strong.destacado{text-decoration: underline;}
+
+    /*strong .destacado{text-decoration: underline;} este funciona solo si coloco la clase destacado dentro de un span y que a la vez valla dentro del strong*/
+    </style>
     <title>Document</title>
 </head>
 <body>
     <h1>Esta es la tercer pagina</h1>
     <p>Parrafo de la tercer pagina</p>
     <h1 style="color:#C7AA8D;">Este es el nombre y estilos inline</h1>
+    <p>Estos es un parrafo que puede contener mucho texto</p>
+    <ul>
+        <li><a href="" class="mivinculo">uno</a></li>
+        <li><a href="">dos</a></li>
+        <li><a href="">tres <strong>negrita</strong></a></li>
+    </ul>
+    <p>Este es otro parrado que es <strong>negrita</strong> decir clic <a href="">aqui</a> en fin ahora voy a probar las palabras destacadas mediante estas cosas llamadas <strong class="destacado">  Voluptatem</strong> en fin vamos a <span class="destacado"> Destacar</span></p>
 </body>
 </html>
