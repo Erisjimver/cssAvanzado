@@ -1,0 +1,15 @@
+p{
+    color: #F90;
+    margin-left: 50px;
+    padding-left: 20px;
+    border-left: solid 22px #930;
+}
+
+.estilospaginas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #960;
+    width: 960px;
+    margin: 0 auto; 
+}
+
