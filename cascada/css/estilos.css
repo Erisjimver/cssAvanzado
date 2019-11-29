@@ -1,0 +1,24 @@
+body{  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    color: #F00;
+}
+
+p{
+    color: #00F;
+}
+
+strong{
+    font-size: 36px;
+    color: #0F0;
+}
+
+/*
+
+un selector de etiqueta = pt
+un selector de clase= pt
+un selector de ID=100 pt
+un selector inline = 1000pt
+
+
+
+*/
